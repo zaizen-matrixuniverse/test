@@ -1,0 +1,112 @@
+
+/** フッター部分 **/
+footer {
+  text-align: center;
+  padding-top: 0;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding-top: 50%;
+  z-index: 1;
+}
+.footer_wrapper {
+  position: relative;
+  top: 10px;
+}
+ul.footer_content {
+  list-style: none;
+  padding: 0px;
+  margin-bottom: 0;
+  position: absolute;
+  width: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 0;
+}
+ul.footer_content li {
+  text-decoration: none;
+  font-size: 1rem;
+}
+footer p {
+  color: #A6A6A6;
+  font-size: 0.9em;
+}
+
+/* フッター上部の余白調整 */
+.main_wrapper {
+  min-height: 100vh;
+  position: relative;
+  padding-bottom: 181px;
+  box-sizing: border-box;
+}
+
+
+/*** タブレット横・PC ***/
+@media screen and (orientation: landscape)  {
+
+/** フッター部分 **/
+footer {
+  padding-top: 20%;
+}
+
+.footer_wrapper {
+  right: -25px;
+  top: -15px;
+}
+ul.footer_content li {
+  display: inline-block;
+  padding-right: 35px;
+  position: relative;
+  font-size: 1.5rem
+}
+ul.footer_content li::after {
+  content:"";
+  display:inline-block;
+  width: 1.5px;
+  height:100%;
+  background-color:#A6A6A6;
+  position:absolute;
+  top: 0px;
+  right: 25px;
+}
+footer p {
+  color: #A6A6A6;
+  font-size: 1.4rem;
+}
+
+}
+
+
+@media screen and (min-width: 1025px)  {
+
+/** フッター部分 **/
+footer {
+  padding-top: 20%;
+}
+
+.footer_wrapper {
+  right: -25px;
+  top: -15px;
+}
+ul.footer_content li {
+  display: inline-block;
+  padding-right: 35px;
+  position: relative;
+  font-size: 1.5rem
+}
+ul.footer_content li::after {
+  content:"";
+  display:inline-block;
+  width: 1.5px;
+  height:100%;
+  background-color:#A6A6A6;
+  position:absolute;
+  top: 0px;
+  right: 25px;
+}
+footer p {
+  color: #A6A6A6;
+  font-size: 1.4rem;
+}
+
+}

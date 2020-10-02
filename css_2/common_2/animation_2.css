@@ -1,0 +1,222 @@
+
+/** スクロール時の背景 **/
+#bg {
+  background: linear-gradient(#0a8302 5%, #055901 15%, #002e00 20%);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vw;
+}
+
+
+
+/* 項目２ */
+#bg.act01 {
+  animation: bg_01 1s cubic-bezier(0.64, 0, 0.78, 0) forwards	;
+}
+@keyframes bg_01 {
+  0% {
+    background: linear-gradient(#1C8202 25%, #125701 35%, #072A00 45%);
+  }
+  10% {
+    background: linear-gradient(#2E8202 25%, #1E5401 35%, #0E2600 45%);
+  }
+  20% {
+    background: linear-gradient(#408102 25%, #2B5201 35%, #152200 45%);
+  }
+  30% {
+    background: linear-gradient(#528002 25%, #385001 35%, #1C1E00 45%);
+  }
+  40% {
+    background: linear-gradient(#647F02 25%, #444E01 35%, #231A00 45%);
+  }
+  50% {
+    background: linear-gradient(#777F02 25%, #514B01 35%, #2A1700 45%);
+  }
+  60% {
+    background: linear-gradient(#897E02 25%, #5D4901 35%, #311300 45%);
+  }
+  70% {
+    background: linear-gradient(#9B7D02 25%, #6A4701 35%, #380F00 45%);
+  }
+  80% {
+    background: linear-gradient(#AD7C02 25%, #774501 35%, #3F0B00 45%);
+  }
+  90% {
+    background: linear-gradient(#BF7C02 25%, #834201 35%, #460700 45%);
+  }
+  100% {
+    background: linear-gradient(#d17b02 25%, #904001 35%, #4d0300 45%);
+  }
+
+}
+
+/* 項目３ */
+#bg.act02 {
+  animation: bg_02 0.7s cubic-bezier(0.64, 0, 0.78, 0) forwards	;
+}
+@keyframes bg_02 {
+  0% {
+    background: linear-gradient(#D07E0F 45%, #8F420E 55%, #4B050B 65%);
+  }
+  10% {
+    background: linear-gradient(#CE811D 45%, #8E451B 55%, #490717 65%);
+  }
+  20% {
+    background: linear-gradient(#CD842A 45%, #8C4729 55%, #470922 65%);
+  }
+  30% {
+    background: linear-gradient(#CC8737 45%, #8B4936 55%, #450B2D 65%);
+  }
+  40% {
+    background: linear-gradient(#CA8A44 45%, #8A4C43 55%, #430D39 65%);
+  }
+  50% {
+    background: linear-gradient(#C98E52 45%, #894E50 55%, #421044 65%);
+  }
+  60% {
+    background: linear-gradient(#C7915F 45%, #88515D 55%, #401250 65%);
+  }
+  70% {
+    background: linear-gradient(#C6946C 45%, #87536A 55%, #3E145B 65%);
+  }
+  80% {
+    background: linear-gradient(#C59779 45%, #855578 55%, #3C1666 65%);
+  }
+  90% {
+    background: linear-gradient(#C39A87 45%, #845885 55%, #3A1872 65%);
+  }
+  100% {
+    background: linear-gradient(#c29d94 45%, #835a92 55%, #381a7d 65%);
+  }
+}
+
+/* 項目４ */
+#bg.act03 {
+  animation: bg_03 1.3s cubic-bezier(0.64, 0, 0.78, 0) forwards	;
+}
+@keyframes bg_03 {
+  0% {
+    background: linear-gradient(#BC9D96 75%, #7F5C8F 85%, #371D77 95%);
+  }
+  10% {
+    background: linear-gradient(#B69D97 75%, #7B5D8C 85%, #361F71 95%);
+  }
+  20% {
+    background: linear-gradient(#B19E99 75%, #785F89 85%, #35226B 95%);
+  }
+  30% {
+    background: linear-gradient(#AB9E9B 75%, #746086 85%, #342465 95%);
+  }
+  40% {
+    background: linear-gradient(#A59E9D 75%, #706283 85%, #33275F 95%);
+  }
+  50% {
+    background: linear-gradient(#9F9E9E 75%, #6C6381 85%, #332959 95%);
+  }
+  60% {
+    background: linear-gradient(#999EA0 75%, #68657E 85%, #322C53 95%);
+  }
+  70% {
+    background: linear-gradient(#939EA2 75%, #64667B 85%, #312E4D 95%);
+  }
+  80% {
+    background: linear-gradient(#8E9FA4 75%, #616878 85%, #303147 95%);
+  }
+  90% {
+    background: linear-gradient(#889FA5 75%, #5D6975 85%, #2F3341 95%);
+  }
+  100% {
+    background: linear-gradient(#829fa7 75%, #596b72 85%, #2e363b 95%);
+  }
+}
+
+
+/** スクロール時のテキスト **/
+/* 項目２ */
+#sp_content02_fadeIn {
+  opacity: 0;
+}
+#tablet_content02_fadeIn {
+  opacity: 0;
+}
+#pc_content02_fadeIn {
+  opacity: 0;
+}
+
+#content02_fadeIn_img {
+  opacity: 0;
+}
+
+/* 項目３ */
+#sp_content03_fadeIn {
+  opacity: 0;
+}
+#tablet_content03_fadeIn {
+  opacity: 0;
+}
+#pc_content03_fadeIn {
+  opacity: 0;
+}
+
+#content03_fadeIn_img {
+  opacity: 0;
+}
+
+/* 項目４ */
+#sp_content04_fadeIn {
+  opacity: 0;
+}
+#tablet_content04_fadeIn {
+  opacity: 0;
+}
+#pc_content04_fadeIn {
+  opacity: 0;
+}
+
+#content04_fadeIn_img {
+  opacity: 0;
+}
+
+/* フェードインの指定 */
+.text_fadeIn {
+  animation: text_fadeIn 2s 0.3s forwards	;
+}
+.pc_text_fadeIn {
+  animation: pc_text_fadeIn 2s 0.3s forwards	;
+}
+.img_fadeIn {
+  animation: img_fadeIn 5s 1.3s forwards	;
+}
+
+
+@keyframes text_fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes pc_text_fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes img_fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

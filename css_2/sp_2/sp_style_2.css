@@ -1,0 +1,148 @@
+
+.sp {
+ display: block !important;
+}
+.tablet {
+  display: none !important;
+}
+.pc {
+ display: none !important;
+}
+
+
+/** ファーストビュー **/
+.header_title {
+  bottom: 115vw;
+  font-size: 15vw;
+}
+.header_text01 {
+  bottom: 80vw;
+  font-size: 5.5vw;
+}
+.header_text02 {
+  bottom: 71vw;
+  font-size: 5.5vw;
+}
+
+.getapp01_wrap {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 31.26vw;
+  z-index: 6;
+}
+.getapp01 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  line-height: 0;
+}
+
+.android_display {
+  margin:0
+}
+.iOS_display {
+  margin: 0;
+}
+
+.getapp01_img {
+  width: 55vw;
+  margin: 0 1vw;
+  position: inherit;
+  transform: translateX(0);
+}
+
+#android_getapp01 {
+  margin-top: : 2.6%;
+}
+#iOS_getapp01 {
+
+}
+
+
+/** 項目１ **/
+
+/** 項目２ **/
+.content02_img {
+  width: 49%;
+  transform: translateY(-34%) translateX(-50%);
+}
+
+/** 項目３ **/
+.content03_img {
+  width: 70%;
+  transform: translateY(-30%) translateX(-50%);
+}
+
+/** 項目４ **/
+.content04_img {
+  width: 85%;
+  transform: translateY(-27%) translateX(-50%);
+}
+
+/** 項目５ **/
+.content05 {
+  margin-bottom: 0px;
+  background: #025c6d;
+  box-shadow: 0px 1px 3px #000 inset;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 65vw;
+  display: inline-block;
+  position: relative;
+  text-align: center;
+  width: 100%;
+  z-index: 2;
+}
+.appinfo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 7%;
+}
+.appinfo img {
+  width: 30%;
+  position: relative;
+}
+.appinfo_text {
+  display: inline-block;
+  text-align: left;
+  margin-left: 5%;
+  padding-top: 0px;
+}
+.appinfo_title {
+  font-size: 10vw;
+  margin: 0 0 0 10%;
+  line-height: 10vw
+}
+.appinfo_text01 {
+  font-size: 2.7vw;
+  margin-top: 10%;
+  margin-bottom: 0;
+}
+.appinfo_text02 {
+  font-size: 2.7vw;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.getapp02 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.getapp02_img {
+  width: 40vw;
+  margin: 0 10px;
+}
+.notice {
+  position: absolute;
+  width: 100%;
+  top: 90%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.notice p{
+  font-size: 1.8vw;
+}

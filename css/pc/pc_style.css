@@ -1,0 +1,116 @@
+
+.sp {
+ display: none !important;
+}
+.tablet {
+ display: none !important;
+}
+.pc {
+ display: block !important;
+}
+
+.pc_header_text {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  z-index: 3;
+}
+
+.getapp01_wrap {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 7.63vw;
+  z-index: 6;
+}
+.getapp01 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  line-height: 0;
+}
+
+.android_display {
+  margin:0
+}
+.iOS_display {
+  margin: 0;
+}
+
+.getapp01_img {
+  width: 20vw;
+  margin: 0 2.5vw;
+  position: inherit;
+  transform: translateX(0);
+}
+
+/** 項目１ **/
+.content01 video {
+  width: 45%;
+}
+
+/** 項目２ **/
+.content02_img {
+  width: 19%;
+  transform: translateY(-52%) translateX(45%);
+}
+
+/** 項目３ **/
+.content03_img {
+  width: 27.5%;
+  transform: translateY(-52%) translateX(-115%);
+}
+
+/** 項目４ **/
+.content04_img {
+  width: 35.5%;
+  transform: translateY(-47%) translateX(-10%);
+}
+
+/** 項目５ **/
+.content05 {
+  height: 27vw;
+}
+.appinfo {
+  margin-top: 3%;
+}
+.appinfo img {
+  width: 15%;
+}
+.appinfo_text {
+  margin-left: 5%;
+  padding-top: 0px;
+}
+.appinfo_title {
+  font-size: 4.5vw;
+  margin: 0 0 0 10%;
+  line-height: 4.5vw
+}
+.appinfo_text01 {
+  font-size: 1.3vw;
+  margin-top: 5%;
+  margin-bottom: 0;
+}
+.appinfo_text02 {
+  font-size: 1.3vw;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.getapp02_img {
+  width: 15vw;
+  margin: 0 30px;
+}
+.getapp02 {
+  margin-top: 1.1%;
+}
+.notice {
+  position: absolute;
+  width: 100%;
+  top: 88%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.notice p{
+  font-size: 1vw;
+}

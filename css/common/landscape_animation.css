@@ -1,0 +1,17 @@
+
+#bg.act01 {
+  animation: bg_01 0.7s 0.5s cubic-bezier(0.64, 0, 0.78, 0) forwards	;
+}
+#bg.act02 {
+  animation: bg_02 0.5s 0.5s cubic-bezier(0.64, 0, 0.78, 0) forwards	;
+}
+#bg.act03 {
+  animation: bg_03 1s 0.5s cubic-bezier(0.64, 0, 0.78, 0) forwards	;
+}
+
+.pc_text_fadeIn {
+  animation: pc_text_fadeIn 2.5s 0.8s forwards	;
+}
+.img_fadeIn {
+  animation: img_fadeIn 5.5s 1.8s forwards	;
+}

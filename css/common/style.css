@@ -1,0 +1,326 @@
+
+/*** 共通 ***/
+/** フォント指定 **/
+@font-face {
+  font-family: "MaruGothic";
+  src: url("../../assets/fonts/marugo.woff") format("woff");
+}
+@font-face {
+  font-family: "KozGothic";
+  src: url("../../assets/fonts/KozGoPr6N-Regular.woff") format("woff");
+}
+
+html,body {
+  font-family: "MaruGothic",sans-serif;
+}
+
+p {
+  font-weight: inherit;
+}
+
+h2 {
+  font-weight: inherit;
+}
+
+h2.header_title,p.appinfo_title {
+  font-family: "KozGothic",sans-serif;
+  font-weight: inherit;
+}
+
+/** その他指定 **/
+html,body {
+  margin: 0px;
+  padding: 0px;
+  color: #fff;
+  height: 100%;
+}
+body {
+  background: #002346;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.wrap {
+  overflow: hidden;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.iphone .iOS_display {
+  display: none;
+}
+.ipad .iOS_display {
+  display: none;
+}
+.android .android_display {
+  display: none;
+}
+
+/** ファーストビュー **/
+header {
+  margin-bottom: 0;
+  z-index: 2;
+}
+.header_bg {
+  background: linear-gradient(#039e96, #025c6d, #021c43);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  position: relative
+}
+.header_img {
+  width: 100%;
+}
+
+.bg01 {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  z-index: 3;
+}
+.bg02 {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  z-index: 4;
+}
+
+.header_bg video {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+.header_text {
+
+}
+.header_title {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 0;
+  z-index: 5;
+}
+.header_text01 {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 0;
+  z-index: 5;
+}
+.header_text02 {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 0;
+  z-index: 5;
+}
+
+.getapp01_img {
+  z-index: 6;
+  margin: 0;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+/** 項目１ **/
+.content01 {
+  margin-bottom: 0px;
+  position: relative;
+  z-index: 3;
+}
+.content01_video {
+
+}
+.content01 img {
+  width: 100%;
+}
+.content01 video {
+  width: 80%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+}
+
+/** 項目２ **/
+.content02 {
+  margin-bottom: 0px;
+  position: relative;
+  z-index: 3;
+}
+.content02_bg {
+  width:100%;
+}
+.content02_img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 6;
+}
+.sp_content02_text {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  z-index: 5;
+}
+.tablet_content02_text {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  z-index: 5;
+}
+.pc_content02_text {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  z-index: 5;
+}
+
+
+/** 項目３ **/
+.content03 {
+  margin-bottom: 0px;
+  position: relative;
+  z-index: 3;
+}
+.content03_bg {
+  width:100%;
+}
+.content03_img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 6;
+}
+.sp_content03_text {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  z-index: 6;
+}
+.tablet_content03_text {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  z-index: 5;
+}
+.pc_content03_text {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  z-index: 5;
+}
+
+
+/** 項目４ **/
+.content04 {
+  margin-bottom: 0px;
+  position: relative;
+  z-index: 3;
+}
+.content04_bg {
+  width:100%;
+}
+.content04_img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 6;
+}
+.sp_content04_text {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  z-index: 5;
+}
+.tablet_content04_text {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  z-index: 5;
+}
+.pc_content04_text {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  z-index: 5;
+}
+
+
+/** 項目５ **/
+.content05 {
+  margin-bottom: 0px;
+  background: #025c6d;
+  box-shadow: 0px 1px 3px #000 inset;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 65vw;
+  display: inline-block;
+  position: relative;
+  text-align: center;
+  width: 100%;
+  z-index: 4;
+}
+.appinfo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 7%;
+}
+.appinfo img {
+  width: 30%;
+  position: relative;
+}
+.appinfo_text {
+  display: inline-block;
+  text-align: left;
+  margin-left: 5%;
+  padding-top: 0px;
+}
+.appinfo_title {
+  font-size: 10vw;
+  margin: 0 0 0 10%;
+  line-height: 10vw
+}
+.appinfo_text01 {
+  font-size: 2.7vw;
+  margin-top: 10%;
+  margin-bottom: 0;
+}
+.appinfo_text02 {
+  font-size: 2.7vw;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.getapp02 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3%;
+}
+.getapp02_img {
+  width: 40vw;
+  margin: 0 10px;
+}
+.notice {
+  position: absolute;
+  width: 100%;
+  top: 90%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.notice p{
+  font-size: 1.8vw;
+}
