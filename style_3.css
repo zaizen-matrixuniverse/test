@@ -1,51 +1,278 @@
-html, body, main {
-  display: block;
-  width: 100%;
-  height: auto;
+@font-face {
+  font-family: "MaruGothic";
+  src: url("marugo.woff") format("woff");
 }
-.bg {
+html,body {
+  font-family: "MaruGothic",sans-serif;
 }
-.bg-inner1 {
-  position: fixed;
-  top: 0;
-  left: 0;
-  display: block;
-  width: 100%;
-  height: 100%;
-  background: #0a8302;
-  opacity: 0.9;
-  -webkit-transition: 3s linear;
-  transition: 3s linear;
-}
-.bg-inner2 {
-  position: fixed;
-  top: 0;
-  left: 0;
-  display: block;
-  width: 100%;
-  height: 100%;
-  background: rgb(209,123,2); /* Old browsers */
-  background: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0.3) 50%, rgba(0,0,0,0.7) 100%); /* FF3.6-15 */
-  background: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.3) 50%,rgba(0,0,0,0.7) 100%); /* Chrome10-25,Safari5.1-6 */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d17b02', endColorstr='#4d0300',GradientType=0 ); /* IE6-9 */
 
-}
-.contents {
-  position: relative;
-}
-.contents ul {
+body {
   margin: 0;
   padding: 0;
-
 }
-.contents li {
-  list-style: none;
+.main {
+  position: relative;
+  background: #0d948e;
+  width: 100%;
+  display: block;
+}
+.main::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
   width: 100%;
   height: 100%;
   display: block;
-  font-size: 60px;
-  font-weight: bold;
-  text-align: center;
-  box-sizing: border-box;
-  border: solid 1px #fff;
+  background-position: center;
+  background-size: 100% auto;
 }
+
+  .main__top {
+    position: relative;
+    display: block;
+    margin-bottom: -0.7%;
+  }
+  .main__top::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+    background: url(https://zaizen-matrixuniverse.github.io/test/assets/img/sp_content01_bg.png);
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+  }
+  .main__top__video {
+    width: 80%;
+    padding: 23% 0;
+    margin: 0 auto;
+    display: block;
+  }
+  .main__top__video video {
+    display: block;
+    width: 100%;
+  }
+
+/*項目２*/
+  .main__content02 {
+    position: relative;
+    display: block;
+    letter-spacing: -.4rem;
+    font-size: 0;
+    width: 100%;
+    margin: 0 auto;
+    padding: 6% 0;
+  }
+  .main__content02::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+    background: url(https://zaizen-matrixuniverse.github.io/test/assets/img/sp_content02_bg.png);
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+  }
+  .main__content02 .text, .main__content02 .img {
+    letter-spacing: normal;
+    font-size: 16px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    box-sizing: border-box;
+    color: #fff;
+  }
+  .main__content02 .text {
+    width: 60%;
+    padding: 8% 5%;
+    text-align: left;
+  }
+  .main__content02 .text h2 {
+    font-size: 5.5vw;
+    font-weight: normal;
+    margin: 0 0 2.5%;
+  }
+  .main__content02 .text p {
+    font-size: 3.1vw;
+    font-weight: normal;
+    margin: 0;
+  }
+  .main__content02 .img {
+    width: 40%;
+    padding: 0 4%;
+  }
+  .main__content02 .img img {
+    width: 100%;
+  }
+
+  /*項目３*/
+  .main__content03 {
+    position: relative;
+    display: block;
+    letter-spacing: -.4rem;
+    font-size: 0;
+    width: 100%;
+    margin: 0 auto;
+    padding: 6% 0;
+  }
+  .main__content03::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+    background: url(https://zaizen-matrixuniverse.github.io/test/assets/img/sp_content03_bg.png);
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+  }
+  .main__content03 .text, .main__content03 .img {
+    letter-spacing: normal;
+    font-size: 16px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    box-sizing: border-box;
+    color: #fff;
+  }
+  .main__content03 .text {
+    width: 60%;
+    padding: 8% 5%;
+    text-align: left;
+  }
+  .main__content03 .text h2 {
+    font-size: 5.5vw;
+    font-weight: normal;
+    margin: 0 0 2.5%;
+  }
+  .main__content03 .text p {
+    font-size: 3.1vw;
+    font-weight: normal;
+    margin: 0;
+  }
+  .main__content03 .img {
+    width: 40%;
+    padding: 0 4%;
+  }
+  .main__content03 .img img {
+    width: 100%;
+  }
+
+  /*項目４*/
+  .main__content04 {
+    position: relative;
+    display: block;
+    letter-spacing: -.4rem;
+    font-size: 0;
+    width: 100%;
+    margin: 0 auto;
+    padding: 6% 0;
+  }
+  .main__content04::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+    background: url(https://zaizen-matrixuniverse.github.io/test/assets/img/sp_content04_bg.png);
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+  }
+  .main__content04 .text, .main__content04 .img {
+    letter-spacing: normal;
+    font-size: 16px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    box-sizing: border-box;
+    color: #fff;
+  }
+  .main__content04 .text {
+    width: 60%;
+    padding: 8% 5%;
+    text-align: left;
+  }
+  .main__content04 .text h2 {
+    font-size: 5.5vw;
+    font-weight: normal;
+    margin: 0 0 2.5%;
+  }
+  .main__content04 .text p {
+    font-size: 3.1vw;
+    font-weight: normal;
+    margin: 0;
+  }
+  .main__content04 .img {
+    width: 40%;
+    padding: 0 4%;
+  }
+  .main__content04 .img img {
+    width: 100%;
+  }
+
+  @media(max-width: 1024px) {
+    .main::before {
+      /* background変更 */
+      /* background: url(https://zaizen-matrixuniverse.github.io/test/assets/img/pc_content01_bg.png); */
+    }
+/*項目２*/
+    .main__content02 .text, .main__content02 .img {
+      display: block;
+    }
+    .main__content02 .text {
+      margin: 3.7% auto 0;
+      padding: 0;
+      width: 100%;
+      text-align: center;
+    }
+    .main__content02 .img {
+      margin: 5% auto 0;
+      padding: 0;
+      width: 49%;
+    }
+
+/*項目３*/
+    .main__content03 .text, .main__content03 .img {
+      display: block;
+    }
+    .main__content03 .text {
+      margin: 3.7% auto 0;
+      padding: 0;
+      width: 100%;
+      text-align: center;
+    }
+    .main__content03 .img {
+      margin: 5% auto 0;
+      padding: 0;
+      width: 70%;
+    }
+
+/*項目４*/
+　　.main__content04 .text, .main__content04 .img {
+      display: block;
+    }
+    .main__content04 .text {
+      margin: 3.7% auto 0;
+      padding: 0;
+      width: 100%;
+      text-align: center;
+    }
+    .main__content04 .img {
+      margin: 5% auto 0;
+      padding: 0;
+      width: 85%;
+    }
+
+  }
